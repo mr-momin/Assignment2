@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10</title>
+    <link rel="stylesheet" href="/image">
+</head>
+<body>
+    <h1 class="page"><%= data.name%></h1><br>
+    <div class="image">
+        <table >
+            <tr><td>Author: <%= data.author%></td></tr>
+            <br>
+            <tr><td><a href="<%= data.link%>">Buy on amazon! </a></td></tr>
+        </table>
+    </div>
+    <hr>
+    <ul class="nav">
+        <a href="/home">List of Books</a>&ensp;<span>|</span>&ensp;
+        <a href="/AddNewBook">Add Book</a>&ensp;<span>|</span>&ensp;
+        <a href="/DeleteABook">Delete A Book</a>&ensp;
+    </ul>
+    <hr>
+</body>
+</html>
